@@ -9,6 +9,9 @@ Proyecto académico que desarrolla, optimiza y evalúa una red neuronal multicap
 - Features (6): `buying`, `maint`, `doors`, `persons`, `lug_boot`, `safety` (todas categóricas ordinales).  
 - Variable objetivo (target): `class` con 4 categorías — `unacc`, `acc`, `good`, `vgood`.
 
+### Reproducibilidad del dataset
+El dataset se descarga automáticamente desde UCI usando la librería `ucimlrepo`; basta ejecutar la celda de carga del notebook.
+
 ## Tecnologías y librerías
 - Python (recomendado >= 3.9)
 - NumPy
